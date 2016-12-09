@@ -9,4 +9,4 @@ eureka:
       instanceId: ${spring.application.name}:${server.port:8080}
   client:
     serviceUrl:
-      defaultZone: http://127.0.0.1:8761/eureka/
+      defaultZone: http://fortune-eureka.cfapps.io/eureka/
